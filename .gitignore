@@ -1,3 +1,39 @@
-src/data/processed/*.pkl
-src/data/processed/*.zip
-src/models/*.pt
+# Data files
+*.pkl
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.csv
+*.tsv
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
